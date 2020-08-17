@@ -1,5 +1,5 @@
 youtubeにて勉強
-このプロジェクトは下記youtubeの内容に沿ってます
+このプロジェクトは下記youtubeの内容に沿ってます  
 https://youtu.be/p6qoJ4apCjA
 
 ## npx lerna init
