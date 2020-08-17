@@ -1,6 +1,7 @@
 youtubeにて勉強  
-このプロジェクトは下記youtubeの内容に沿って学習した内容です。  
-https://youtu.be/p6qoJ4apCjA
+このプロジェクトは下記URLのYouTuber **Ben Awad** さんの内容に沿って学習した内容です。
+1. [Yarn Workspaces Tutorial](https://youtu.be/G8KXFWftCg0) 
+2. [How to Use Lerna](https://youtu.be/p6qoJ4apCjA)
 
 ## npx lerna init
 lernaに必要なファイルやディレクトリが作成される
