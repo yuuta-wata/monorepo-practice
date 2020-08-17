@@ -66,3 +66,23 @@ lerna success - @walnut/common
 lerna success - @walnut/server
 ✨  Done in 2.47s.
 ```
+
+### git commit をした後に`lerna version --conventional-commits --yes`を実行するとVersionをアップしてリリースログを残すことが可能、自動でpushまでしてくれる
+
+```
+$ lerna version --conventional-commits --yes
+lerna notice cli v3.22.1
+lerna info current version 0.0.0
+lerna info Assuming all packages changed
+lerna info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+
+Changes:
+ - @walnut/common: 1.0.0 => 1.0.1
+ - @walnut/server: 1.0.0 => 1.0.1
+
+lerna info auto-confirmed 
+lerna info execute Skipping releases
+lerna info git Pushing tags...
+lerna success version finished
+✨  Done in 12.36s.
+```
