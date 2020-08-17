@@ -86,3 +86,25 @@ lerna info git Pushing tags...
 lerna success version finished
 ✨  Done in 12.36s.
 ```
+
+## lerca diff
+コミット後に変更されたパッケージのログが見れる
+
+```
+yarn diff
+
+yarn run v1.22.4
+$ lerna diff
+lerna notice cli v3.22.1
+diff --git a/packages/common/index.js b/packages/common/index.js
+index a120cf9..e81a19b 100644
+--- a/packages/common/index.js
++++ b/packages/common/index.js
+@@ -1,3 +1,4 @@
+ module.exports = () => {
+   console.log("hello from common 13");
++  console.log("hello from common 14");
+ };
+\ No newline at end of file
+✨  Done in 1.59s.
+```
